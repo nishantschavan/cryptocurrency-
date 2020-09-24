@@ -1,4 +1,5 @@
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
+import 'package:crytocurrency/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'homePage.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
             title: "Cryptocurrency app",
             debugShowCheckedModeBanner: false,
             theme: ThemeProvider.of(context),
-            home: HomePage(),
+            home: SplashScreen(),
           );
         }));
   }
